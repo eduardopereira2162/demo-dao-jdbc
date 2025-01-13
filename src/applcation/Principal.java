@@ -43,6 +43,10 @@ public class Principal {
 		seller.setName("Marta Waine");
 		sellerDao.update(seller);
 		System.out.println("Update completed");
+		
+		System.out.println("\n===TEST 6: seller delete ");
+		sellerDao.deleteById(1);
+		System.out.println("Delete completed");
 	
 	}
 	
