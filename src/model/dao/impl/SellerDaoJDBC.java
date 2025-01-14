@@ -1,4 +1,4 @@
-package model.dao.mpl;
+package model.dao.impl;
 
 import java.sql.Statement;
 import java.sql.Connection;
